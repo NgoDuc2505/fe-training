@@ -1,0 +1,191 @@
+/* set css chung cho toan bo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf4f2;
+}
+
+/* ======HEADER============ */
+header{
+    background-color: #f8e1db;
+    padding: 18px 0;
+    /* padding: 18px 0 17px 5px; */
+}
+
+/* phan cap ther tag < class < id */
+header .content-header{
+    display: flex;
+    justify-content: space-between;
+}
+header .content-header .logo,
+footer .logo{
+    width: 50px;
+    height: 50px;
+    background-color: #e76f51;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+header .content-header .navber-header{
+    /* ky thuat can giua doc */
+    display: flex;
+    align-items: center;
+}
+
+header .content-header .logo p,
+footer .logo p{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    width: fit-content;
+    margin: auto;
+}
+
+.navber-header ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    gap: 40px;
+    margin-bottom: 0px;
+}
+
+.navber-header ul li a{
+   color: black;
+   text-decoration: none;
+}
+
+/* ===CAROUSEL */
+.carousel{
+    height: 100vh;
+}
+/* .carousel{
+    background-image: url("/img/BG.png");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+} */
+
+.carousel img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* ====ACTIVITIES */
+.logo-activities{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-activities img{
+    width: 8%;
+    height: 65%;
+}
+.item-wrapper{
+    display: flex;
+    gap: 35px;
+}
+
+.card-iem{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.card-iem .card-btn{
+    width: 50%;
+}
+
+.card-iem .card-btn:hover button,
+.activities-btn button:hover{
+    background-color: palevioletred;
+    color: #fff;
+}
+
+.card-iem .card-btn button,
+.activities-btn button{
+    width: 100%;
+    background-color: pink;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 0;
+    transition: all .5s;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.card-content{
+    text-align: center;
+    margin-top: 5px;
+}
+.activities-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.activities-btn button{
+    width: 10%;
+}
+
+/* ====NUMBER */
+.number{
+    background-color: black;
+    margin-top: 40px;
+}
+
+.container-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.num-item{
+    color: pink;
+    text-align: center;
+}
+
+.num-item h1{
+    font-size: 90px;
+}
+
+/* ====FOOTER */
+footer{
+    padding: 50px 0;
+    margin-top: 50px;
+    background-color: rgba(255, 192, 203, 0.281);
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.col-custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-footer{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
